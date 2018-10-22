@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+h1{
+    color:dimgrey;
+    font-size: 100px;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+}
+h2{
+    color:dimgrey;
+    font-size: 83px;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+}
+strong{
+    background-size: 5px;
+}
+img{
+    width: 200px; 
+    float: left;	 	
+}
+.Image{
+    max-width: 800px;
+                        
+}
+header{
+    margin-left: 230px;
+    width: 400px;
+}
+section{
+    color: dimgrey;
+    clear:both;
+}
+ul{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
