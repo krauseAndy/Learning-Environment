@@ -39,3 +39,54 @@ a{
     align-items: center;
 }
 /***************************************************/
+.actu{
+    margin:0 auto;
+    background-color:blue;
+    max-width: 960px;
+    height: 700px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center; 
+    width: 100%;
+    font-size: 18px;
+}
+.text{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.info{
+    background-color: red;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;   
+    
+}
+.benevole{
+    background-color:orange;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5; 
+}
+.video{
+    background-color: yellow;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.middle_page{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin:0 auto;
+    background-color:blue;
+    height: 700px;
+}
